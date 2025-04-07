@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+body{
+
+    color: #000000;
+}
+
+#main-title{
+    font-size: 50 px;
+    margin: 20px 0;
+    padding: auto;
+    border: 2px solid #005d9b;
+    background-color: rgb(0, 120, 136);
+    color: white;
+    width: 100%;
+    top: 0;
+}
+
+#main-title:hover{
+    background-color: rgb(0, 100, 136);
+}
+
+#sub-title{
+    font-size: 30px;
+    margin: 20px 0;
+    text-align: center; /* Align text to the left */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+nav{
+    justify-content: center;
+    padding: auto;
+    margin: 20px 0;
+    border: #d1cece 1px solid;
+    gap: 20px; /* Add space between buttons */
+   
+}
+
+nav li{
+    list-style: none; /* Remove bullet points from list items */
+    display: inline-block; /* Display list items inline */
+    margin: 0 10px; /* Add space between buttons */
+    padding: 10px 20px; /* Add padding for better spacing */
+    background-color: #ffffff; /* Set background color for buttons */
+    width: 100px; /* Set a fixed width for buttons */
+}
+
+#home{
+    background-color: #e6dddd;
+    color: #000000;
+
+    padding: 10px 20px; /* Add padding for better spacing */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#home p{
+    font-size: 20px; /* Adjust font size for the heading */
+    margin: 0; /* Remove default margin */
+}
+
+#about h2{
+    font-size: 20px; /* Add a font size */
+    color: #333; /* Add a text color */
+    font-family: open sans;
+    padding: 30px;
+}
+#about p{
+    font-size: 16px; /* Add a font size */
+    color: #000000; /* Add a text color */
+    font-family: open sans;
+    padding: 20px;
+}
+
+#courses h2{
+    font-size: 20px; /* Add a font size */
+    color: #333; /* Add a text color */
+    font-family: open sans;
+    padding: 30px;
+}
+#courses p{
+    font-size: 16px; /* Add a font size */
+    color: #666; /* Add a text color */
+    font-family: open sans;
+    padding: 20px;
+}
+
+.Course-Duration h3{
+    font-size: 16px; /* Add a font size */
+    color: #000000; /* Add a text color */
+    font-family: open sans;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+.Course-Duration p{
+    font-size: 16px; /* Add a font size */
+    color: #666; /* Add a text color */
+    font-family: open sans;
+    padding: 20px;
+    text-align: left; /* Align text to the left */
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px; /* Add padding for better spacing */
+    text-decoration: none; /* Remove underline from links */
+    border: #636363 1px solid;
+    border-width: 3px;
+    margin: 20px 0;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    max-width: 600px; /* Set a maximum width for the image */
+    margin: 20px auto; /* Center the image horizontally */
+    display: block; /* Make the image a block element */
+    border: 2px solid #000000; /* Add a border to the image */
+    border-radius: 10px; /* Add rounded corners to the image */
+    padding: 15px; /* Add padding inside the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect to the image */
+   
+}
+img:hover{
+    transform: scale(1.05); /* Scale the image on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
